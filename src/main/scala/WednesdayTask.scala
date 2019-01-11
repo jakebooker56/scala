@@ -4,7 +4,6 @@ object WednesdayTask extends App {
 def WordCalc: Unit = {
 
   val lines = Source.fromURL("http://norvig.com/ngrams/enable1.txt").getLines.toArray
-  //var lines2 = Source.fromURL("http://norvig.com/ngrams/enable1.txt").getLines.toArray
   println("please enter word")
   val Word1 = scala.io.StdIn.readLine()
   val Array1 = Word1.toArray
